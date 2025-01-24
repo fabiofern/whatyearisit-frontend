@@ -5,5 +5,3 @@ fetch("https://whatyearisit-backend-nine-iota.vercel.app")
     .then((data) => {
         year.textContent(data.year);
     });
-// test 2
-// test
