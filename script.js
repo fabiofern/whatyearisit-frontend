@@ -1,7 +1,5 @@
-const year = document.querySelector("#year");
-
-fetch("https://whatyearisit-backend-nine-iota.vercel.app")
+fetch("https://whatyearisit-backend-nine-iota.vercel.app/year")
     .then((response) => response.json())
     .then((data) => {
-        year.textContent(data.year);
+        document.querySelector("#year").textContent = data.year;
     });
