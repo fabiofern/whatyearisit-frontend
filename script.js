@@ -7,4 +7,3 @@ fetch("https://whatyearisit-backend-nine-iota.vercel.app")
     });
 // test 2
 // test
-cd ..cd
